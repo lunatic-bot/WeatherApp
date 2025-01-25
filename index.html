@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f8ff;
+    }
+    .weather-app {
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .search-bar, .weather-info, .forecast {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="weather-app">
+    <!-- Search Section -->
+    <div class="section search-bar">
+      <input type="text" id="location-input" placeholder="Enter city name" />
+      <button id="search-button">Search</button>
+    </div>
+
+    <!-- Current Weather Section -->
+    <div class="section weather-info">
+      <h2 id="city-name">City Name</h2>
+      <p id="temperature">Temperature: --°C</p>
+      <p id="description">Description: --</p>
+      <p id="humidity">Humidity: --%</p>
+    </div>
+
+    <!-- Forecast Section -->
+    <div class="section forecast">
+      <h3>3-Day Forecast</h3>
+      <div id="forecast-cards">
+        <!-- Cards for each day's forecast -->
+        <div class="forecast-card">
+          <p>Day 1</p>
+          <p>Temp: --°C</p>
+          <p>Condition: --</p>
+        </div>
+        <div class="forecast-card">
+          <p>Day 2</p>
+          <p>Temp: --°C</p>
+          <p>Condition: --</p>
+        </div>
+        <div class="forecast-card">
+          <p>Day 3</p>
+          <p>Temp: --°C</p>
+          <p>Condition: --</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
