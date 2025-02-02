@@ -14,7 +14,7 @@ A simple weather application built with **HTML**, **CSS**, and **JavaScript** to
 This project is designed to:
 
 - Practice **JavaScript DOM manipulation**.
-- Learn how to fetch data using APIs (e.g., WeatherAPI).
+- Learn how to fetch data using APIs (e.g., WeatherAPI - https://www.weatherapi.com/docs/).
 - Build a clean and responsive user interface.
 
 ## How to Run the Project
